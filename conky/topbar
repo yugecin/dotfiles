@@ -24,7 +24,7 @@ border_outer_margin 0
 default_color cccccc
 default_shade_color 303030
 default_outline_color 222222
-alignment top_middle
+alignment top_right
 gap_x 0
 gap_y -1
 no_buffers yes
@@ -40,4 +40,4 @@ color4 1dcc33 #top4
 color5 543f9e #lines
 
 TEXT
-$alignc $color0$cpu%$color | $color1$mem ($memperc%)$color | $color2$battery_percent% $color3[$battery_time]$color | $color4${time %H:%M:%S}$color 
+$alignc $color0$cpu%$color | $color1$mem ($memperc%)$color | $color2$battery_percent% $color3[$battery_time]$color | $color4${time %H:%M:%S}$color
