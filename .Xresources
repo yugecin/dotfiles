@@ -1,1 +1,55 @@
-../.Xresources
+xterm*faceName: terminus
+xterm*faceSize: 9
+
+xterm*loginshell: true
+
+! DOS-box colours...
+! xterm*foreground: rgb:a8/a8/a8
+! xterm*background: rgb:00/00/00
+
+! right hand side scrollbar...
+xterm*rightScrollBar: true
+xterm*ScrollBar: true
+
+! stop output to terminal from jumping down to bottom of scroll again
+xterm*scrollTtyOutput: false
+
+*background:#222222
+*foreground:#e8e9ca
+
+*color0:    #000000
+*color1:    #aa0000
+*color2:    #00aa00
+*color3:    #aa5500
+*color4:    #0000aa
+*color5:    #aa00aa
+*color6:    #00aaaa
+*color7:    #aaaaaa
+
+*color8:    #555555
+*color9:    #ff5555
+*color10:   #55ff55
+*color11:   #ffff55
+*color12:   #5555ff
+*color13:   #55ff55
+*color14:   #ff5555
+*color15:   #ffffff
+
+! *color0:    #222222
+! *color1:    #8b3e2f
+! *color2:    #526f33
+! *color3:    #665847
+! *color4:    #4a708b
+! *color5:    #7a378b
+! *color6:    #528b8b
+! *color7:    #999999
+! 
+! *color8:    #4c4c4c
+! *color9:    #d75f00
+! *color10:   #cee318
+! *color11:   #eee685
+! *color12:   #9ac0cd
+! *color13:   #9f79ee
+! *color14:   #79cdcd
+! *color15:   #e8e9ca
+

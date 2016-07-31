@@ -1,1 +1,8 @@
-../.xinitrc.herb
+
+# bg & cursor
+xsetroot -solid \#121212
+xsetroot -cursor_name top_left_arrow
+
+herbstluftwm --locked&
+exec lxterminal
+

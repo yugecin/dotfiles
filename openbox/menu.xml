@@ -1,1 +1,123 @@
-../../.config/openbox/menu.xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <!--<item label="Terminal">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>-->
+  <item label="chrome">
+    <action name="Execute"><execute>google-chrome</execute></action>
+  </item>
+  <item label="chromium">
+    <action name="Execute"><execute>chromium</execute></action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute"><execute>firefox</execute></action>
+  </item>
+  <item label="pcmanfm">
+    <action name="Execute"><execute>pcmanfm</execute></action>
+  </item>
+  <item label="sylpheed">
+    <action name="Execute"><execute>sylpheed</execute></action>
+  </item>
+  <menu id="devstuff" label="Dev stuff">
+	  <item label="intellij">
+	    <action name="Execute"><execute>intellij</execute></action>
+	  </item>
+	  <item label="intellij-comm">
+	    <action name="Execute"><execute>intellijc</execute></action>
+	  </item>
+	  <item label="eclipse">
+	    <action name="Execute"><execute>eclipse</execute></action>
+	  </item>
+	  <item label="vmware">
+	    <action name="Execute"><execute>vmware</execute></action>
+	  </item>
+	  <item label="gvim">
+	    <action name="Execute"><execute>gvim</execute></action>
+	  </item>
+  </menu>
+  <menu id="comms" label="comms">
+	  <item label="hexchat">
+	    <action name="Execute"><execute>hexchat</execute></action>
+	  </item>
+	  <item label="teamspeak3">
+	    <action name="Execute"><execute>teamspeak3</execute></action>
+	  </item>
+  </menu>
+  <item label="sharenix">
+    <action name="Execute"><execute>/home/robin/.sharenix/sharenix.sh</execute></action>
+  </item>
+  <item label="steam">
+    <action name="Execute"><execute>steam</execute></action>
+  </item>
+  <menu id="toolz" label="Tools">
+	  <item label="LXtask">
+		<action name="Execute"><execute>lxtask</execute></action>
+	  </item>
+	  <item label="nm-connection-editor">
+		<action name="Execute"><execute>nm-connection-editor</execute></action>
+	  </item>
+	  <item label="xfce4-power-manager-settings">
+	        <action name="Execute"><execute>xfce4-power-manager-settings</execute></action>
+	  </item>
+	  <item label="Software center">
+		<action name="Execute"><execute>lubuntu-software-center</execute></action>
+	  </item>
+          <item label="Software updates">
+                <action name="Execute"><execute>software-properties-gtk</execute></action>
+          </item>
+  </menu>
+  <separator />
+  <menu id="root-menu-812113" label="LibreOffice">
+	<item label="Writer">
+	  <action name="Execute">libreoffice --writer</action>
+	</item>
+	<item label="Calc">
+	  <action name="Execute">libreoffice --calc</action>
+	</item>
+  </menu>
+  <!-- This requires the presence of the 'menu' package to work -->
+  <menu id="/Debian" />
+  <separator />
+  <menu id="client-list-menu" />
+  <separator />
+  <menu id="settings" label="Settings">
+	  <menu id="obConfig" label="Openbox">
+		<item label="LXappearance">
+		  <action name="Execute"><execute>lxappearance</execute></action>
+		</item>
+		<item label="ObConf">
+		  <action name="Execute"><execute>obconf</execute></action>
+		</item>
+		<item label="tint2conf">
+		  <action name="Execute"><execute>tint2conf</execute></action>
+		</item>
+		<item label="qtconfig">
+		  <action name="Execute"><execute>qtconfig</execute></action>
+		</item>
+		<item label="Reconfigure">
+		  <action name="Reconfigure" />
+		</item>
+		<item label="Restart">
+		  <action name="Restart" />
+		</item>
+	  </menu>
+	  <item label="Wallpaper">
+		<action name="Execute"><execute>nitrogen ~/pictures/wallpaps</execute></action>
+	  </item>
+	  <item label="Light locker">
+		<action name="Execute"><execute>light-locker-settings</execute></action>
+	  </item>
+  </menu>
+  <separator />
+  <item label="Exit">
+    <action name="Exit" />
+  </item>
+</menu>
+
+</openbox_menu>

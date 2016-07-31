@@ -1,1 +1,6 @@
-../.xinitrc.cwm
+
+xsetroot -name cwm
+bash ~/.autostart &
+
+exec openbsd-cwm
+

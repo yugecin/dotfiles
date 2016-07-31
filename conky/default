@@ -1,1 +1,74 @@
-../../.config/conky/default
+background no
+font terminus-12
+use_xft no
+xftalpha 0
+update_interval 3.0
+total_run_times 0
+own_window no
+#own_window_class conky
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 5
+maximum_width 200
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color cccccc
+default_shade_color black
+default_outline_color green
+alignment top_right
+gap_x 12
+gap_y 35
+no_buffers yes
+uppercase no
+cpu_avg_samples 4
+override_utf8_locale no
+
+color0 f19192 #top0
+color1 ffbf5e #top1
+color2 d6e624 #top2
+color3 85eb6e #top3
+color4 1dcc33 #top4
+color5 543f9e #lines
+
+TEXT
+$color5$color${alignc}${nodename}$color
+
+CPU: ${alignr}${freq} MHz
+Core 1 ${alignr}${cpu cpu1}%
+${cpubar 4 cpu1}
+Core 2 ${alignr}${cpu cpu2}%
+${cpubar 4 cpu2}
+Core 3 ${alignr}${cpu cpu2}%
+${cpubar 4 cpu3}
+Core 4 ${alignr}${cpu cpu2}%
+${cpubar 4 cpu4}
+$color0${top name 1}$alignr${top cpu 1}
+$color1${top name 2}$alignr${top cpu 2}
+$color2${top name 3}$alignr${top cpu 3}
+$color3${top name 4}$alignr${top cpu 4}
+$color4${top name 5}$alignr${top cpu 5}$color
+
+RAM: ${alignr}$mem/$memmax ($memperc%)
+${membar 4}
+$color0${top_mem name 1}$alignr${top_mem mem 1}
+$color1${top_mem name 2}$alignr${top_mem mem 2}
+$color2${top_mem name 3}$alignr${top_mem mem 3}
+$color3${top_mem name 4}$alignr${top_mem mem 4}
+$color4${top_mem name 5}$alignr${top_mem mem 5}$color
+
+Filesystem: ${alignr}${fs_used /} / ${fs_size /}
+${fs_bar 4 /}
+
+Wireless (${wireless_link_qual_perc wlp3s0}%)
+${wireless_essid wlp3s0}$alignr${addr wlp3s0}
+
+Down: ${downspeed wlp3s0}/s ${alignr}(${totaldown wlp3s0})
+${downspeedgraph wlp3s0 25,95 00ff00 0000ff}${offset 10}${upspeedgraph wlp3s0 25,95 0000ff ff0000}
+Up: ${upspeed wlp3s0}/s ${alignr}(${totalup wlp3s0})
+
+Battery:${alignr}${battery_time} (${battery_percent}%)
+${if_match $battery_percent <= 25}$color1$endif${if_match $battery_percent <= 10}$color0$endif${battery_bar}

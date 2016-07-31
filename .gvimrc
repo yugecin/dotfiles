@@ -1,1 +1,1 @@
-../.gvimrc
+set guioptions-=T

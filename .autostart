@@ -1,1 +1,44 @@
-../.autostart
+#!/bin/bash
+
+#xsetroot -solid \#400040
+hsetroot -tile ~/pictures/wallpaps/stripe.png
+xsetroot -cursor_name top_left_arrow
+
+xrdb -load ~/.Xresources
+
+# tint2
+#tint2 -c /home/robin/.config/tint2/tint2rcewm &
+# meh tint2, pypanel :s
+pypanel >~/pypanellog 2>&1  &
+# MEH TASKBAR :D
+# ok need a taskbar or whatpulse doesn't start..... use stalonetray
+#stalonetray --geometry 1x1+0-380 -v -i 8 &
+
+# start this so it can throw segfaults
+#superswitcher&
+# okno, conflicts with run command (mod4+r)
+
+# default conky
+conky -c/home/robin/.config/conky/default &
+# topbar conky, attempt to start on 5th second
+( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/topbar ) &
+
+#thunar deamon
+thunar --deamon &
+
+# we want hotkeys
+xbindkeys
+
+# sleep 3s, then load systray programs (to make sure taskbar started)
+sleep 2s
+
+# supress whatpulse messages, get spammed with warnings about
+# XWindowProperty _NET_WM_PID failed
+whatpulse 1>/dev/null 2>&1 &
+# no tray so no nm applet, use nmcli-dmenu
+# meh need a tray, start it anyways (it will crash but yeh)
+nm-applet &
+
+# start 2nd conky also after 3s
+#conky -c/home/robin/.config/conky/taskbar &
+

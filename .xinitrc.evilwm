@@ -1,1 +1,6 @@
-../.xinitrc.evilwm
+
+xsetroot -name evilwm
+bash ~/.autostart &
+
+exec /usr/bin/evilwm
+

@@ -1,1 +1,43 @@
-../../.config/conky/topbar
+background no
+font terminus-12
+use_xft no
+xftalpha 0
+update_interval 5.0
+total_run_times 0
+own_window yes
+own_window_class Conky
+own_window_type dock
+own_window_transparent no
+own_window_colour 2f2f2f
+own_window_hints undecorated,above,sticky,skip_taskbar,skip_pager
+double_buffer yes
+#minimum_size 200 10
+minimum_width 268
+maximum_width 300
+draw_shades no
+draw_outline yes
+draw_borders no
+draw_graph_borders no
+border_width 0
+border_inner_margin 1
+border_outer_margin 1
+default_color cccccc
+default_shade_color 303030
+default_outline_color 222222
+alignment top_right
+gap_x 1
+gap_y 2
+no_buffers yes
+uppercase no
+cpu_avg_samples 4
+override_utf8_locale no
+
+color0 f19192 #top0
+color1 ffbf5e #top1
+color2 d6e624 #top2
+color3 85eb6e #top3
+color4 1dcc33 #top4
+color5 543f9e #lines
+
+TEXT
+$alignc$color0$cpu%$color | $color1$mem ($memperc%)$color | $color2$battery_percent% $color3[$battery_time]$color | $color4${time %H:%M:%S}$color

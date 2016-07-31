@@ -1,1 +1,2 @@
-../.xinitrc
+
+exec openbox-session

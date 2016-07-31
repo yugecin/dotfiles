@@ -1,1 +1,21 @@
-../.evilwmrc
+term lxterminal
+fn terminus
+fg #7dc1cf
+fc #ff0000
+bg #2f2f2f
+bw 0
+snap 10
+
+app pypanel
+dock
+fixed
+geometry +0+0
+
+app Conky
+dock
+fixed
+
+app xclock
+dock
+fixed
+
