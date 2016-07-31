@@ -6,6 +6,11 @@ bg #2f2f2f
 bw 0
 snap 10
 
+gap0 0
+gap1 0
+gap2 0
+gap3 15
+
 app pypanel
 dock
 fixed
@@ -14,6 +19,11 @@ geometry +0+0
 app Conky
 dock
 fixed
+
+app Conkytop
+dock
+fixed
+above
 
 app xclock
 dock

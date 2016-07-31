@@ -36,7 +36,7 @@ P_START         = 0           # Starting X coordinate of the panel
 P_SPACER        = 6             # Spacing between panel objects
 P_THICKNESS 	= 15
 P_LENGTH 	= 0
-P_EXPAND 	= 150
+P_EXPAND 	= 100
 
 #------------------------------------------------------------------------------
 # Panel Tasks Options
