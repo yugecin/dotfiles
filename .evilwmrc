@@ -12,15 +12,19 @@ gap2 0
 gap3 15
 
 app pypanel
+skiptab
 dock
 fixed
 geometry +0+0
+above
 
 app Conky
+skiptab
 dock
 fixed
 
 app Conkytop
+skiptab
 dock
 fixed
 above

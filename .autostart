@@ -23,8 +23,8 @@ conky -c/home/robin/.config/conky/default &
 # topbar conky, attempt to start on 5th second
 ( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/topbar ) &
 
-#thunar deamon
-thunar --deamon &
+#thunar daemon
+thunar --daemon &
 
 # we want hotkeys
 xbindkeys
