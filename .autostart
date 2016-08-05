@@ -6,6 +6,9 @@ xsetroot -cursor_name top_left_arrow
 
 xrdb -load ~/.Xresources
 
+# gotta go fast (keyrepeat delay rate)
+xset r rate 200 25
+
 # tint2
 #tint2 -c /home/robin/.config/tint2/tint2rcewm &
 # meh tint2, pypanel :s
