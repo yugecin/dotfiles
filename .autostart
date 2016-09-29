@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #xsetroot -solid \#400040
-hsetroot -tile ~/pictures/wallpaps/stripe.png
+#hsetroot -tile ~/pictures/wallpaps/stripe.png
+hsetroot -center ~/pictures/wallpaps/bloon.png
 xsetroot -cursor_name top_left_arrow
 
 xrdb -load ~/.Xresources
