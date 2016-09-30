@@ -13,10 +13,10 @@ double_buffer yes
 minimum_size 200 5
 maximum_width 200
 draw_shades no
-draw_outline yes
+draw_outline no
 draw_borders no
 draw_graph_borders yes
-default_color cccccc
+default_color 222222
 default_shade_color black
 default_outline_color black
 alignment top_right
@@ -27,11 +27,16 @@ uppercase no
 cpu_avg_samples 4
 override_utf8_locale no
 
-color0 f19192 #top0
-color1 ffbf5e #top1
-color2 d6e624 #top2
-color3 85eb6e #top3
-color4 1dcc33 #top4
+#color0 f19192 #top0
+#color1 ffbf5e #top1
+#color2 d6e624 #top2
+#color3 85eb6e #top3
+#color4 1dcc33 #top4
+color0 c0392b #top0
+color1 d35400 #top1
+color2 f39c12 #top2
+color3 27ae60 #top3
+color4 2980b9 #top4
 color5 543f9e #lines
 
 TEXT
