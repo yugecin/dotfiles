@@ -71,9 +71,9 @@ ${fs_bar 4 /}
 Wireless (${wireless_link_qual_perc wlp3s0}%)
 ${wireless_essid wlp3s0}$alignr${addr wlp3s0}
 
-Down: ${downspeed wlp3s0}/s ${alignr}(${totaldown wlp3s0})
+Down: ${downspeed wlp3s0}/s ${alignr}${totaldown wlp3s0}|${totaldown enp2s0f1}
 ${downspeedgraph wlp3s0 25,95 00ff00 0000ff}${offset 10}${upspeedgraph wlp3s0 25,95 0000ff ff0000}
-Up: ${upspeed wlp3s0}/s ${alignr}(${totalup wlp3s0})
+Up: ${upspeed wlp3s0}/s ${alignr}${totalup wlp3s0}|${totalup enp2s0f1}
 
 Battery:${alignr}${battery_time} (${battery_percent}%)
 ${if_match $battery_percent <= 25}$color1$endif${if_match $battery_percent <= 10}$color0$endif${battery_bar}
