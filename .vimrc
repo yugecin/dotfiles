@@ -54,7 +54,6 @@ colors blackmysol
 
 set cursorline
 
-set cursorline
 map <F2> :bp<CR>
 map <F3> :bn<CR>
 map <F4> :nohlsearch<CR>
@@ -68,53 +67,38 @@ set guicursor=i:iCursor,a:blinkon0-block
 "set list
 
 "airline
-set laststatus=2
-
-let g:airline_powerline_fonts = 0
-"let g:airline_left_sep = '|'
-"let g:airline_left_alt_sep = '|'
-"let g:airline_right_sep = '|'
-"let g:airline_right_alt_sep = '|'
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_theme='darkmy'
-
-"let g:airline_section_a = '%{airline#util#wrap(airline#parts#mode(),0)}'
-"let g:airline_section_x = '%{airline#util#wrap(airline#parts#ffenc(),0)}'
-"let g:airline_section_y = '%{strftime("%d-%b-%y %H:%M")}'
-let g:airline_section_a = ''
-let g:airline_section_b = ''
-let g:airline_section_x = ''
-let g:airline_section_y = ''
-let g:airline_section_z = '%03l(%03L)'
-
-let g:airline#extensions#whitespace#mixed_indent_algo = 2
+"set laststatus=2
+"
+"let g:airline_powerline_fonts = 0
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
+"let g:airline_theme='darkmy'
+"
+""let g:airline_section_a = '%{airline#util#wrap(airline#parts#mode(),0)}'
+""let g:airline_section_x = '%{airline#util#wrap(airline#parts#ffenc(),0)}'
+""let g:airline_section_y = '%{strftime("%d-%b-%y %H:%M")}'
+"let g:airline_section_a = ''
+"let g:airline_section_b = ''
+"let g:airline_section_x = ''
+"let g:airline_section_y = ''
+"let g:airline_section_z = '%03l(%03L)'
+"
+"let g:airline#extensions#whitespace#mixed_indent_algo = 2
 
 "buffer
-let g:airline#extensions#bufferline#overwrite_variables = 0
-let g:bufferline_echo = 0
-let g:bufferline_solo_highlight = 1
-let g:bufferline_active_highlight = 'StatusLine'
-let g:bufferline_inactive_highlight = 'StatusLineNC'
-let g:bufferline_show_bufnr = 0
-let g:bufferline_active_buffer_left = '|'
-let g:bufferline_active_buffer_right = ''
-let g:bufferline_modified = '*'
+"let g:airline#extensions#bufferline#overwrite_variables = 0
+"let g:bufferline_echo = 0
+"let g:bufferline_solo_highlight = 1
+"let g:bufferline_active_highlight = 'StatusLine'
+"let g:bufferline_inactive_highlight = 'StatusLineNC'
+"let g:bufferline_show_bufnr = 0
+"let g:bufferline_active_buffer_left = '|'
+"let g:bufferline_active_buffer_right = ''
+"let g:bufferline_modified = '*'
 
-"file list
-function! ExploreNewBuffer()
-	let s:cw = getcwd()
-	lcd %:p:h
-	enew
-	Explore
-	cd `=s:cw`
-endfunction
+let g:rainbow_active=0
 
-"map <F11> :call ExploreNewBuffer()<CR>
-map <F11> :Ex<CR>
-
-autocmd Filetype ys set syntax=javascript
-let g:rainbow_active = 1
+set laststatus=0
 
