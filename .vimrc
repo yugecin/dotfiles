@@ -32,6 +32,7 @@ if has("gui_running")
 	set guioptions-=m  "menu bar
 	set guioptions-=T  "toolbar
 	set guioptions-=r  "scrollbar
+	set guioptions-=L  "left scrollbar on vsplit
 	"set guifont=Terminus\ 9
 	set guifont=Terminus\ Bold\ 10
 endif
