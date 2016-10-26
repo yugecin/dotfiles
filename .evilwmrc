@@ -9,14 +9,14 @@ snap 10
 
 gap0 0
 gap1 0
-gap2 0
-gap3 15
+gap2 15
+gap3 0
 
 app pypanel
 skiptab
 dock
 fixed
-geometry +0+0
+geometry +0+753
 above
 
 app Conky

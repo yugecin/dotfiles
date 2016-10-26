@@ -13,7 +13,7 @@ VERSION         = 2.4           # Config file version
 #------------------------------------------------------------------------------
 BG_COLOR        = "0x2f2f2f"    # Panel background and tinting color
 TASK_COLOR      = "0xd7d0c7"    # Normal task name color
-FOCUSED_COLOR   = "0x1826de"    # Focused task name color
+FOCUSED_COLOR   = "0x4360e0"    # Focused task name color
 SHADED_COLOR    = "0x808080"    # Shaded task name color
 MINIMIZED_COLOR = "0x808080"    # Minimized task name color
 DESKTOP_COLOR   = "0xd7d0c7"    # Desktop name color
@@ -31,7 +31,7 @@ CLOCK_SHADOW_COLOR     = "0xffffff"
 #------------------------------------------------------------------------------
 # Panel Spacing and Location Options: Measured in pixels
 #------------------------------------------------------------------------------
-P_LOCATION      = 2             # Panel placement: 0 = top, 1 = bottom
+P_LOCATION      = 1             # Panel placement: 0 = top, 1 = bottom
 P_START         = 0           # Starting X coordinate of the panel
 P_SPACER        = 6             # Spacing between panel objects
 P_THICKNESS 	= 15
