@@ -10,22 +10,29 @@ xrdb -load ~/.Xresources
 # gotta go fast (keyrepeat delay rate)
 xset r rate 200 25
 
-# tint2
-#tint2 -c /home/robin/.config/tint2/tint2rcewm &
-# meh tint2, pypanel :s
-pypanel >~/pypanellog 2>&1  &
-# MEH TASKBAR :D
-# ok need a taskbar or whatpulse doesn't start..... use stalonetray
-#stalonetray --geometry 1x1+0-380 -v -i 8 &
-
 # start this so it can throw segfaults
 #superswitcher&
 # okno, conflicts with run command (mod4+r)
 
-# default conky
-conky -c/home/robin/.config/conky/default &
-# topbar conky, attempt to start on 5th second
-( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/topbar ) &
+# taskbar, conky (depending on wm)
+if [ "$1" == "evilwm" ]
+then
+	pypanel >~/pypanellog 2>&1  &
+	# MEH TASKBAR :D
+	# ok need a taskbar or whatpulse doesn't start..... use stalonetray
+	#stalonetray --geometry 1x1+0-380 -v -i 8 &
+
+	# default conky
+	conky -c/home/robin/.config/conky/default &
+	# topbar conky, attempt to start on 5th second
+	( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/topbar ) &
+elif [ "$1" == "openbox" ]
+then
+	tint2 -c /home/robin/.config/tint2/tint2rcopenbox &
+
+	conky -c/home/robin/.config/conky/default &
+	( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/taskbar) &
+fi
 
 #thunar daemon
 thunar --daemon &
@@ -37,12 +44,14 @@ xbindkeys
 sleep 2s
 
 # supress whatpulse messages, get spammed with warnings about
-# XWindowProperty _NET_WM_PID failed
+# XWindowProperty _NET_WM_PID failed (on evilwm)
 whatpulse 1>/dev/null 2>&1 &
 # no tray so no nm applet, use nmcli-dmenu
-# meh need a tray, start it anyways (it will crash but yeh)
-nm-applet &
+# meh need a tray, start it anyways (it will crash (on evilwm) but yeh)
 
-# start 2nd conky also after 3s
-#conky -c/home/robin/.config/conky/taskbar &
+if [ "$1" == "evilwm" ]
+then
+else
+	nm-applet &
+fi
 

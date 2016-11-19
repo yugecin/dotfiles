@@ -1,6 +1,6 @@
 
 xsetroot -name evilwm
-bash ~/.autostart &
+bash ~/.autostart evilwm&
 
 exec /usr/bin/evilwm
 

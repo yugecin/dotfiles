@@ -1,18 +1,3 @@
-#.numlockx &
 
-## set root window color
-#hsetroot -solid "#3E3436" &
+bash ~/.autostart openbox
 
-## nitrogen - restore wallpap
-## tint2
-#(nitrogen --restore && sleep 3s && tint2) &
-tint2 -c /home/robin/.config/tint2/tint2rcopenbox &
-
-## conky jaja
-(sleep 6s && conky -c/home/robin/.config/conky/default) &
-(sleep 8s && conky -c/home/robin/.config/conky/taskbar) &
-
-## start thunar daemon
-thunar --daemon &
-
-## maybe mount windows devs if needed
