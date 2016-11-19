@@ -42,7 +42,7 @@
 			           'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Mistral-y</name>
+    <name>y</name>
     <titleLayout>NLSIMC</titleLayout>
     <!--
 			available characters are NDSLIMC, each can occur at most once.
@@ -223,9 +223,9 @@
         <to>4</to>
       </action>
     </keybind>
-    <!--<keybind key="W-d">
-			<action name="ToggleShowDesktop"/>
-			</keybind>-->
+    <keybind key="W-d">
+      <action name="ToggleShowDesktop"/>
+    </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
       <action name="Close"/>
@@ -828,5 +828,8 @@
 			
 			# end of the example
 			-->
+    <application class="*">
+      <decor>no</decor>
+    </application>
   </applications>
 </openbox_config>
