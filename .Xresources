@@ -14,8 +14,8 @@ xterm*ScrollBar: true
 ! stop output to terminal from jumping down to bottom of scroll again
 xterm*scrollTtyOutput: false
 
-*background:#222222
-*foreground:#e8e9ca
+*background:#161517
+*foreground:#eeeeee
 
 *color0:    #000000
 *color1:    #aa0000

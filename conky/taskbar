@@ -8,7 +8,7 @@ own_window yes
 own_window_class Conky
 own_window_type normal
 own_window_transparent no
-own_window_colour 202020
+own_window_colour 161517
 own_window_hints undecorated,above,sticky,skip_taskbar,skip_pager
 double_buffer yes
 #minimum_size 200 10
@@ -22,7 +22,7 @@ border_width 0
 border_inner_margin 1
 border_outer_margin 1
 default_color cccccc
-default_shade_color 303030
+default_shade_color 161517
 default_outline_color green
 alignment bottom_right
 gap_x 0
