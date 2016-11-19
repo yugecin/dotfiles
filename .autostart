@@ -2,7 +2,7 @@
 
 #xsetroot -solid \#400040
 #hsetroot -tile ~/pictures/wallpaps/stripe.png
-hsetroot -center ~/pictures/wallpaps/bloon.png
+hsetroot -center ~/pictures/wallpaps/bloon-darker.png
 xsetroot -cursor_name top_left_arrow
 
 xrdb -load ~/.Xresources
