@@ -1,3 +1,7 @@
+dzen2.font: -*-tamzenforpowerline-medium-*-*-*-9-*-*-*-*-*-*-*
+dzen2.foreground: #eeeeee
+dzen2.background: #161517
+
 xterm*faceName: terminus
 xterm*faceSize: 9
 
