@@ -1,9 +1,14 @@
 #!/bin/bash
 
+XDG_DESKTOP_DIR=/home/robin/Downloads
+export $XDG_DESKTOP_DIR
+
 #xsetroot -solid \#400040
 #hsetroot -tile ~/pictures/wallpaps/stripe.png
 hsetroot -center ~/pictures/wallpaps/bloon-darker.png
-xsetroot -cursor_name top_left_arrow
+#xsetroot -cursor_name top_left_arrow
+
+setxkbmap be
 
 xrdb -load ~/.Xresources
 
@@ -31,7 +36,9 @@ then
 	tint2 -c /home/robin/.config/tint2/tint2rcopenbox &
 
 	conky -c/home/robin/.config/conky/default &
-	( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/taskbar) &
+
+	# ( sleep $(expr 5 - $(expr $(date +%S) % 5)); conky -c/home/robin/.config/conky/taskbar) &
+	bash ~/.config/dzen/multiplexer.sh &
 fi
 
 #thunar daemon
@@ -54,4 +61,7 @@ then
 else
 	nm-applet &
 fi
+
+# stop the hdd constantly spinning up & down
+asroot ~/hdparm
 
