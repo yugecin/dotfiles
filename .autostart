@@ -65,3 +65,6 @@ fi
 # stop the hdd constantly spinning up & down
 asroot ~/hdparm
 
+# just incase I manage to fuck this up
+asroot ~/resetbrightness
+
