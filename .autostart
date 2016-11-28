@@ -56,12 +56,6 @@ whatpulse 1>/dev/null 2>&1 &
 # no tray so no nm applet, use nmcli-dmenu
 # meh need a tray, start it anyways (it will crash (on evilwm) but yeh)
 
-if [ "$1" == "evilwm" ]
-then
-else
-	nm-applet &
-fi
-
 # stop the hdd constantly spinning up & down
 asroot ~/hdparm
 
