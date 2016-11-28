@@ -1,5 +1,5 @@
 background no
-font terminus-12
+font -*-termsyn-medium-*-*-*-*-*-*-*-*-*-*-*
 use_xft no
 xftalpha 0
 update_interval 5.0
