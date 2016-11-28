@@ -62,3 +62,8 @@ asroot ~/hdparm
 # just incase I manage to fuck this up
 asroot ~/resetbrightness
 
+if [ "$1" == "openbox" ]
+then
+	nm-applet &
+fi
+
