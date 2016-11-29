@@ -8,6 +8,13 @@ export LC_ALL
 export LANG
 export LANGUAGE
 
+XDG_DESKTOP_DIR=/home/robin/downloads
+XDG_DOWNLOADS_DIR=/home/robin/downloads
+XDG_DOCUMENTS_DIR=/home/robin/documents
+export XDG_DESKTOP_DIR
+export XDG_DOWNLOADS_DIR
+export XDG_DOCUMENTS_DIR
+
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 && $(tty) = /dev/tty1 ]] && exec startx #xinit
