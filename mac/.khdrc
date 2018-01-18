@@ -148,3 +148,5 @@ ctrl + alt - d : chunkc tiling::desktop --layout float
 #cmd - 7 : khd -p "shift + alt - 7"
 #cmd - 8 : khd -p "shift + alt - 8"
 #cmd - 9 : khd -p "shift + alt - 9"
+
+ctrl + shift - l : /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
