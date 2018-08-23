@@ -2,6 +2,7 @@
 set showmode
 set visualbell
 set incsearch
+set so=20
 
 " ,p to replace currect word with whatever is in register
 let leader=","
@@ -11,6 +12,6 @@ nnoremap <enter> r<enter>
 map <Leader>s :action Switcher<CR>
 map <Leader>a :action SearchEverywhere<CR>
 map <Leader>b :action Git.Branches<CR>
-map <Leader>c :action CheckinFiles<CR>
+map <Leader>c :action CheckinProject<CR>
 map <Leader>r :action ChangesView.Revert<CR>
 
