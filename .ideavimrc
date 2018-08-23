@@ -1,0 +1,16 @@
+
+set showmode
+set visualbell
+set incsearch
+
+" ,p to replace currect word with whatever is in register
+let leader=","
+nnoremap <Leader>p ciw<c-s>0<esc>
+nnoremap <enter> r<enter>
+
+map <Leader>s :action Switcher<CR>
+map <Leader>a :action SearchEverywhere<CR>
+map <Leader>b :action Git.Branches<CR>
+map <Leader>c :action CheckinFiles<CR>
+map <Leader>r :action ChangesView.Revert<CR>
+
