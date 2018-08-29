@@ -6,12 +6,12 @@ set so=20
 
 " ,p to replace currect word with whatever is in register
 let leader=","
-nnoremap <Leader>p ciw<c-s>0<esc>
+nnoremap ,p ciw<c-s>0<esc>
 nnoremap <enter> r<enter>
 
-map <Leader>s :action Switcher<CR>
-map <Leader>a :action SearchEverywhere<CR>
-map <Leader>b :action Git.Branches<CR>
-map <Leader>c :action CheckinProject<CR>
-map <Leader>r :action ChangesView.Revert<CR>
+map ,s :action Switcher<CR>
+map ,a :action SearchEverywhere<CR>
+map ,b :action Git.Branches<CR>
+map ,c :action CheckinProject<CR>
+map ,r :action ChangesView.Revert<CR>
 
