@@ -6,3 +6,4 @@ cp "c:/bbZero/plugins/BlackboxBar/BlackboxBar.rc" bbzero/BlackboxBar.rc
 cp "c:/bbZero/plugins/bbLeanSkin/bbLeanSkin.rc" bbzero/bbLeanSkin.rc
 cp "c:/bbZero/plugins/bbLeanSkin/exclusions.rc" bbzero/exclusions.rc
 cp "c:/bbZero/plugins/bbLeanSkin/bbLeanSkinMenu.rc" bbzero/bbLeanSkinMenu.rc
+cp ../keyrate.bat keyrate.bat
