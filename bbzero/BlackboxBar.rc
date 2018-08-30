@@ -1,0 +1,259 @@
+# ------------------------------------------------------
+# BlackboxBar+ 1.17 - configuration
+
+# Lines starting with # or ! are ignored
+
+
+
+
+
+
+
+# ------------- BARCONFIG 1
+
+# ---------------------
+# The items on the bar:
+# This builds a toolbar with tasks and tray. You can
+# change the order of items or uncomment some of the
+# currently disabled (!) items)
+
+!BlackboxBar.item: WindowLabel
+!BlackboxBar.item: WorkspaceButtonL
+!BlackboxBar.item: WorkspaceButtonR
+BlackboxBar.item: WorkspaceLabel
+BlackboxBar.item: Tasks
+!BlackboxBar.item: CurrentOnlyButton
+BlackboxBar.item: Tray
+!BlackboxBar.item: WindowButtonL
+!BlackboxBar.item: WindowButtonR
+BlackboxBar.item: Clock
+
+!BlackboxBar.item: TaskStyleButton
+!BlackboxBar.item: NewLine
+!BlackboxBar.item: Space
+
+# ----------------
+# General Settings
+BlackboxBar.placement: BottomCenter
+BlackboxBar.position.x: 0
+BlackboxBar.position.y: 0
+BlackboxBar.widthPercent: 100
+BlackboxBar.useSlit: false
+BlackboxBar.pluginToggle: true
+BlackboxBar.OnTop: true
+BlackboxBar.AutoHide: false
+BlackboxBar.autoRaise: true
+BlackboxBar.snapToEdge: 20
+BlackboxBar.arrowBullets: false
+BlackboxBar.alpha.enabled: false
+BlackboxBar.alpha.value: 255
+BlackboxBar.transparent: false
+
+# ---------
+# Task Tabs
+BlackboxBar.tasks.style: 2
+BlackboxBar.tasks.reverse: false
+BlackboxBar.tasks.current: true
+BlackboxBar.tasks.sysmenu: true
+BlackboxBar.tasks.drawBorder: false
+BlackboxBar.tasks.maxWidth: 100
+
+------------
+# Icons
+BlackboxBar.icon.saturation: 255
+BlackboxBar.icon.hue: 0
+BlackboxBar.icon.size: 16
+
+# ------------
+# Clock-Format
+BlackboxBar.strftimeFormat: %d %a %H:%M
+BlackboxBar.strftimeTipsFormat: %Y-%m-%d %a
+
+# ---------------
+# Special Options
+BlackboxBar.balloonTips: true
+BlackboxBar.autoFullscreenHide: true
+BlackboxBar.setDesktopMargin: false
+BlackboxBar.sendToSwitchTo: true
+
+# -------------------------
+# hidden icons (auto saved)
+BlackboxBar.tray.hidden.count: 0
+BlackboxBar.minHeight: 12
+BlackboxBar.clock.tips: true
+BlackboxBar.clock.Btn1Click: 
+BlackboxBar.clock.Btn2Click: 
+BlackboxBar.clock.Btn3Click: 
+BlackboxBar.clock.Btn4Click: 
+BlackboxBar.clock.Btn5Click: 
+BlackboxBar.clock.Btn6Click: 
+
+
+
+
+
+
+
+# ------------- BARCONFIG 2
+
+# ---------------------
+# The items on the bar:
+# This builds a toolbar with tasks and tray. You can
+# change the order of items or uncomment some of the
+# currently disabled (!) items)
+
+!BlackboxBar.2.item: WindowLabel
+!BlackboxBar.2.item: WorkspaceButtonL
+!BlackboxBar.2.item: WorkspaceButtonR
+BlackboxBar.2.item: WorkspaceLabel
+BlackboxBar.2.item: Tasks
+!BlackboxBar.2.item: CurrentOnlyButton
+BlackboxBar.2.item: Tray
+!BlackboxBar.2.item: WindowButtonL
+!BlackboxBar.2.item: WindowButtonR
+BlackboxBar.2.item: Clock
+
+!BlackboxBar.2.item: TaskStyleButton
+!BlackboxBar.2.item: NewLine
+!BlackboxBar.2.item: Space
+
+# ----------------
+# General Settings
+BlackboxBar.2.placement: BottomCenter
+BlackboxBar.2.position.x: 1920
+BlackboxBar.2.position.y: 0
+BlackboxBar.2.widthPercent: 100
+BlackboxBar.2.useSlit: false
+BlackboxBar.2.pluginToggle: true
+BlackboxBar.2.OnTop: true
+BlackboxBar.2.AutoHide: false
+BlackboxBar.2.autoRaise: true
+BlackboxBar.2.snapToEdge: 20
+BlackboxBar.2.arrowBullets: false
+BlackboxBar.2.alpha.enabled: false
+BlackboxBar.2.alpha.value: 255
+BlackboxBar.2.transparent: false
+
+# ---------
+# Task Tabs
+BlackboxBar.2.tasks.style: 2
+BlackboxBar.2.tasks.reverse: false
+BlackboxBar.2.tasks.current: true
+BlackboxBar.2.tasks.sysmenu: true
+BlackboxBar.2.tasks.drawBorder: false
+BlackboxBar.2.tasks.maxWidth: 100
+
+------------
+# Icons
+BlackboxBar.2.icon.saturation: 255
+BlackboxBar.2.icon.hue: 0
+BlackboxBar.2.icon.size: 16
+
+# ------------
+# Clock-Format
+BlackboxBar.2.strftimeFormat: %d %a %H:%M
+BlackboxBar.2.strftimeTipsFormat: %Y-%m-%d %a
+
+# ---------------
+# Special Options
+BlackboxBar.2.balloonTips: true
+BlackboxBar.2.autoFullscreenHide: true
+BlackboxBar.2.setDesktopMargin: false
+BlackboxBar.2.sendToSwitchTo: true
+
+# -------------------------
+# hidden icons (auto saved)
+BlackboxBar.2.tray.hidden.count: 0
+BlackboxBar.2.minHeight: 12
+BlackboxBar.2.clock.tips: true
+BlackboxBar.2.clock.Btn1Click: 
+BlackboxBar.2.clock.Btn2Click: 
+BlackboxBar.2.clock.Btn3Click: 
+BlackboxBar.2.clock.Btn4Click: 
+BlackboxBar.2.clock.Btn5Click: 
+BlackboxBar.2.clock.Btn6Click: 
+
+
+
+
+
+
+# ------------- BARCONFIG 3
+
+# ---------------------
+# The items on the bar:
+# This builds a toolbar with tasks and tray. You can
+# change the order of items or uncomment some of the
+# currently disabled (!) items)
+
+!BlackboxBar.3.item: WindowLabel
+!BlackboxBar.3.item: WorkspaceButtonL
+!BlackboxBar.3.item: WorkspaceButtonR
+BlackboxBar.3.item: WorkspaceLabel
+BlackboxBar.3.item: Tasks
+!BlackboxBar.3.item: CurrentOnlyButton
+BlackboxBar.3.item: Tray
+!BlackboxBar.3.item: WindowButtonL
+!BlackboxBar.3.item: WindowButtonR
+BlackboxBar.3.item: Clock
+
+!BlackboxBar.3.item: TaskStyleButton
+!BlackboxBar.3.item: NewLine
+!BlackboxBar.3.item: Space
+
+# ----------------
+# General Settings
+BlackboxBar.3.placement: BottomCenter
+BlackboxBar.3.position.x: 3000
+BlackboxBar.3.position.y: 0
+BlackboxBar.3.widthPercent: 100
+BlackboxBar.3.useSlit: false
+BlackboxBar.3.pluginToggle: true
+BlackboxBar.3.OnTop: true
+BlackboxBar.3.AutoHide: false
+BlackboxBar.3.autoRaise: true
+BlackboxBar.3.snapToEdge: 20
+BlackboxBar.3.arrowBullets: false
+BlackboxBar.3.alpha.enabled: false
+BlackboxBar.3.alpha.value: 255
+BlackboxBar.3.transparent: false
+
+# ---------
+# Task Tabs
+BlackboxBar.3.tasks.style: 2
+BlackboxBar.3.tasks.reverse: false
+BlackboxBar.3.tasks.current: true
+BlackboxBar.3.tasks.sysmenu: true
+BlackboxBar.3.tasks.drawBorder: false
+BlackboxBar.3.tasks.maxWidth: 100
+
+------------
+# Icons
+BlackboxBar.3.icon.saturation: 255
+BlackboxBar.3.icon.hue: 0
+BlackboxBar.3.icon.size: 16
+
+# ------------
+# Clock-Format
+BlackboxBar.3.strftimeFormat: %d %a %H:%M
+BlackboxBar.3.strftimeTipsFormat: %Y-%m-%d %a
+
+# ---------------
+# Special Options
+BlackboxBar.3.balloonTips: true
+BlackboxBar.3.autoFullscreenHide: true
+BlackboxBar.3.setDesktopMargin: false
+BlackboxBar.3.sendToSwitchTo: true
+
+# -------------------------
+# hidden icons (auto saved)
+BlackboxBar.3.tray.hidden.count: 0
+BlackboxBar.3.minHeight: 12
+BlackboxBar.3.clock.tips: true
+BlackboxBar.3.clock.Btn1Click: 
+BlackboxBar.3.clock.Btn2Click: 
+BlackboxBar.3.clock.Btn3Click: 
+BlackboxBar.3.clock.Btn4Click: 
+BlackboxBar.3.clock.Btn5Click: 
+BlackboxBar.3.clock.Btn6Click: 
+
