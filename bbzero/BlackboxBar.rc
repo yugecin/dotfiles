@@ -73,7 +73,7 @@ BlackboxBar.strftimeTipsFormat: %Y-%m-%d %a
 # Special Options
 BlackboxBar.balloonTips: true
 BlackboxBar.autoFullscreenHide: true
-BlackboxBar.setDesktopMargin: false
+BlackboxBar.setDesktopMargin: true
 BlackboxBar.sendToSwitchTo: true
 
 # -------------------------
@@ -158,7 +158,7 @@ BlackboxBar.2.strftimeTipsFormat: %Y-%m-%d %a
 # Special Options
 BlackboxBar.2.balloonTips: true
 BlackboxBar.2.autoFullscreenHide: true
-BlackboxBar.2.setDesktopMargin: false
+BlackboxBar.2.setDesktopMargin: true
 BlackboxBar.2.sendToSwitchTo: true
 
 # -------------------------
@@ -172,6 +172,7 @@ BlackboxBar.2.clock.Btn3Click:
 BlackboxBar.2.clock.Btn4Click: 
 BlackboxBar.2.clock.Btn5Click: 
 BlackboxBar.2.clock.Btn6Click: 
+BlackboxBar.2.alwaysOnTop: true
 
 
 
@@ -242,7 +243,7 @@ BlackboxBar.3.strftimeTipsFormat: %Y-%m-%d %a
 # Special Options
 BlackboxBar.3.balloonTips: true
 BlackboxBar.3.autoFullscreenHide: true
-BlackboxBar.3.setDesktopMargin: false
+BlackboxBar.3.setDesktopMargin: true
 BlackboxBar.3.sendToSwitchTo: true
 
 # -------------------------
