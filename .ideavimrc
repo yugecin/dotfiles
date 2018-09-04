@@ -15,4 +15,6 @@ map ,b :action Git.Branches<CR>
 map ,c :action CheckinProject<CR>
 map ,r :action ChangesView.Revert<CR>
 map ,d :action ChooseDebugConfiguration<CR>
+" recompile (and hotswap) file
+map ,h :action Compile<CR>
 
