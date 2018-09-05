@@ -99,6 +99,8 @@ squidcam.exe
 firefox.exe
 PaintDotNet.exe
 whatpulse.exe
+# breaks the transparency
+licecap.exe
 
 
 # wxWidgets version DevCpp
