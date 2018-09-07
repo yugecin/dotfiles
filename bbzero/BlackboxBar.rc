@@ -41,6 +41,7 @@ BlackboxBar.widthPercent: 100
 BlackboxBar.useSlit: false
 BlackboxBar.pluginToggle: true
 BlackboxBar.OnTop: true
+BlackboxBar.alwaysOnTop: true
 BlackboxBar.AutoHide: false
 BlackboxBar.autoRaise: true
 BlackboxBar.snapToEdge: 20
@@ -126,6 +127,7 @@ BlackboxBar.2.widthPercent: 100
 BlackboxBar.2.useSlit: false
 BlackboxBar.2.pluginToggle: true
 BlackboxBar.2.OnTop: true
+BlackboxBar.2.alwaysOnTop: true
 BlackboxBar.2.AutoHide: false
 BlackboxBar.2.autoRaise: true
 BlackboxBar.2.snapToEdge: 20
@@ -172,7 +174,6 @@ BlackboxBar.2.clock.Btn3Click:
 BlackboxBar.2.clock.Btn4Click: 
 BlackboxBar.2.clock.Btn5Click: 
 BlackboxBar.2.clock.Btn6Click: 
-BlackboxBar.2.alwaysOnTop: true
 
 
 
@@ -211,6 +212,7 @@ BlackboxBar.3.widthPercent: 100
 BlackboxBar.3.useSlit: false
 BlackboxBar.3.pluginToggle: true
 BlackboxBar.3.OnTop: true
+BlackboxBar.3.alwaysOnTop: true
 BlackboxBar.3.AutoHide: false
 BlackboxBar.3.autoRaise: true
 BlackboxBar.3.snapToEdge: 20
