@@ -17,4 +17,5 @@ map ,r :action ChangesView.Revert<CR>
 map ,d :action ChooseDebugConfiguration<CR>
 " recompile (and hotswap) file
 map ,h :action Compile<CR>
+map ,p :action ShowProjectStructureSettings<CR>
 
