@@ -18,4 +18,5 @@ map ,d :action ChooseDebugConfiguration<CR>
 " recompile (and hotswap) file
 map ,h :action Compile<CR>
 map ,p :action ShowProjectStructureSettings<CR>
+map ,q :action ViewStatusBar<CR>
 
