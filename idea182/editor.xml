@@ -34,5 +34,6 @@
     <option name="automaticallyInsertClosingTag" value="false" />
     <option name="automaticallyInsertRequiredAttributes" value="false" />
     <option name="automaticallyInsertRequiredSubTags" value="false" />
+    <option name="insertQuotesForAttributeValue" value="false" />
   </component>
 </application>
