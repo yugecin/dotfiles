@@ -75,6 +75,9 @@ trillian.exe
 #winamp
 vis_*.dll
 winamp.exe
+Steam.exe
+steam.exe
+steamwebhelper.exe
 # WMP
 WMPUI.DLL:TimerWindowClass
 WMPLAYER.EXE:atlcommon_timer*
