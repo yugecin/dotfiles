@@ -11,6 +11,7 @@ cp ../keyrate.bat keyrate.bat
 IDEA182=~/.IdeaIC2018.2/config
 
 cp $IDEA182/colors/hh.icls idea182/hh.icls
+cp $IDEA182/colors/hh-keywords.icls idea182/hh-keywords.icls
 cp $IDEA182/colors/light2bit.icls idea182/light2bit.icls
 cp $IDEA182/options/ide.general.xml idea182/ide.general.xml
 cp $IDEA182/options/editor.xml idea182/editor.xml
