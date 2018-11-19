@@ -41,7 +41,7 @@ BlackboxBar.widthPercent: 100
 BlackboxBar.useSlit: false
 BlackboxBar.pluginToggle: true
 BlackboxBar.OnTop: true
-BlackboxBar.alwaysOnTop: true
+BlackboxBar.alwaysOnTop: false
 BlackboxBar.AutoHide: false
 BlackboxBar.autoRaise: true
 BlackboxBar.snapToEdge: 20
@@ -109,7 +109,7 @@ BlackboxBar.clock.Btn6Click:
 BlackboxBar.2.item: WorkspaceLabel
 BlackboxBar.2.item: Tasks
 !BlackboxBar.2.item: CurrentOnlyButton
-!BlackboxBar.2.item: Tray
+BlackboxBar.2.item: Tray
 !BlackboxBar.2.item: WindowButtonL
 !BlackboxBar.2.item: WindowButtonR
 BlackboxBar.2.item: Clock
@@ -127,7 +127,7 @@ BlackboxBar.2.widthPercent: 100
 BlackboxBar.2.useSlit: false
 BlackboxBar.2.pluginToggle: true
 BlackboxBar.2.OnTop: true
-BlackboxBar.2.alwaysOnTop: true
+BlackboxBar.2.alwaysOnTop: false
 BlackboxBar.2.AutoHide: false
 BlackboxBar.2.autoRaise: true
 BlackboxBar.2.snapToEdge: 20
@@ -194,7 +194,7 @@ BlackboxBar.2.clock.Btn6Click:
 BlackboxBar.3.item: WorkspaceLabel
 BlackboxBar.3.item: Tasks
 !BlackboxBar.3.item: CurrentOnlyButton
-!BlackboxBar.3.item: Tray
+BlackboxBar.3.item: Tray
 !BlackboxBar.3.item: WindowButtonL
 !BlackboxBar.3.item: WindowButtonR
 BlackboxBar.3.item: Clock

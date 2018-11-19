@@ -4,6 +4,7 @@
 !
 !
 !
+!
 # ---------------------------------------------
 # bbZero 1.17.x - plugin.rc - the plugins to load
 
@@ -20,10 +21,10 @@ plugins\BlackboxBar\BlackboxBar.dll
 plugins\BlackboxBar\BlackboxBar.dll
 
 # - Lean window skinner
-plugins\bbLeanSkin\bbLeanSkin.dll
+! plugins\bbLeanSkin\bbLeanSkin.dll
 
 # - The Slit - a common place for other plugins
-plugins\bbSlit\bbSlit.dll
+! plugins\bbSlit\bbSlit.dll
 
 # - bb interface plugin(s)
 ! plugins\bbInterface_iTunes\bbInterface_iTunes.dll
@@ -34,8 +35,8 @@ plugins\bbSlit\bbSlit.dll
 [sep]
 
 # - Plugins in the slit
-& plugins\bbAnalog\bbAnalog.dll
-& plugins\bbIconBox\bbIconBox.dll
+! & plugins\bbAnalog\bbAnalog.dll
+! & plugins\bbIconBox\bbIconBox.dll
 ! & plugins\BBAnalogExMod\BBAnalogExMod.dll
 ! & plugins\bbFoomp\bbFoomp.dll
 ! plugins\bbColor3dc\bbColor3dc.dll
