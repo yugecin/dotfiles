@@ -3,7 +3,7 @@
     <property name="created">2018-11-19T18:39:26</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.2.3.0.0</property>
-    <property name="modified">2018-11-20T16:27:52</property>
+    <property name="modified">2018-11-20T19:51:58</property>
     <property name="originalScheme">hh keywords</property>
   </metaInfo>
   <colors>
@@ -13,7 +13,7 @@
     <option name="DELETED_LINES_COLOR" value="ff0000" />
     <option name="LINE_NUMBERS_COLOR" value="" />
     <option name="MODIFIED_LINES_COLOR" value="c8ed" />
-    <option name="READONLY_BACKGROUND" value="1a1a1a" />
+    <option name="READONLY_BACKGROUND" value="232323" />
     <option name="RIGHT_MARGIN_COLOR" value="ffff" />
     <option name="WHITESPACES" value="" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c8ed" />
@@ -252,7 +252,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ebc99d" />
-        <option name="BACKGROUND" value="0" />
+        <option name="BACKGROUND" value="161616" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
