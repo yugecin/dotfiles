@@ -3,7 +3,7 @@
     <property name="created">2018-08-29T14:11:44</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.2.2.0.0</property>
-    <property name="modified">2018-08-30T12:18:51</property>
+    <property name="modified">2018-11-20T16:27:52</property>
     <property name="originalScheme">_@user_Default</property>
   </metaInfo>
   <colors>
@@ -105,6 +105,9 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STRING">
+      <value />
+    </option>
+    <option name="DEFAULT_TAG">
       <value />
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
