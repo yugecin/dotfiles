@@ -41,7 +41,7 @@ BlackboxBar.widthPercent: 100
 BlackboxBar.useSlit: false
 BlackboxBar.pluginToggle: true
 BlackboxBar.OnTop: true
-BlackboxBar.alwaysOnTop: false
+BlackboxBar.alwaysOnTop: true
 BlackboxBar.AutoHide: false
 BlackboxBar.autoRaise: true
 BlackboxBar.snapToEdge: 20
@@ -75,7 +75,7 @@ BlackboxBar.strftimeTipsFormat: %Y-%m-%d %a
 BlackboxBar.balloonTips: true
 BlackboxBar.autoFullscreenHide: true
 BlackboxBar.setDesktopMargin: true
-BlackboxBar.sendToSwitchTo: true
+BlackboxBar.sendToSwitchTo: false
 
 # -------------------------
 # hidden icons (auto saved)
@@ -121,13 +121,13 @@ BlackboxBar.2.item: Clock
 # ----------------
 # General Settings
 BlackboxBar.2.placement: BottomCenter
-BlackboxBar.2.position.x: 1920
+BlackboxBar.2.position.x: -1080
 BlackboxBar.2.position.y: 0
 BlackboxBar.2.widthPercent: 100
 BlackboxBar.2.useSlit: false
 BlackboxBar.2.pluginToggle: true
 BlackboxBar.2.OnTop: true
-BlackboxBar.2.alwaysOnTop: false
+BlackboxBar.2.alwaysOnTop: true
 BlackboxBar.2.AutoHide: false
 BlackboxBar.2.autoRaise: true
 BlackboxBar.2.snapToEdge: 20
@@ -161,7 +161,7 @@ BlackboxBar.2.strftimeTipsFormat: %Y-%m-%d %a
 BlackboxBar.2.balloonTips: true
 BlackboxBar.2.autoFullscreenHide: true
 BlackboxBar.2.setDesktopMargin: true
-BlackboxBar.2.sendToSwitchTo: true
+BlackboxBar.2.sendToSwitchTo: false
 
 # -------------------------
 # hidden icons (auto saved)
@@ -206,7 +206,7 @@ BlackboxBar.3.item: Clock
 # ----------------
 # General Settings
 BlackboxBar.3.placement: BottomCenter
-BlackboxBar.3.position.x: 3000
+BlackboxBar.3.position.x: -2160
 BlackboxBar.3.position.y: 0
 BlackboxBar.3.widthPercent: 100
 BlackboxBar.3.useSlit: false
@@ -246,7 +246,7 @@ BlackboxBar.3.strftimeTipsFormat: %Y-%m-%d %a
 BlackboxBar.3.balloonTips: true
 BlackboxBar.3.autoFullscreenHide: true
 BlackboxBar.3.setDesktopMargin: true
-BlackboxBar.3.sendToSwitchTo: true
+BlackboxBar.3.sendToSwitchTo: false
 
 # -------------------------
 # hidden icons (auto saved)
