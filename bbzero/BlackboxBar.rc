@@ -206,7 +206,7 @@ BlackboxBar.3.item: Clock
 # ----------------
 # General Settings
 BlackboxBar.3.placement: BottomCenter
-BlackboxBar.3.position.x: -2160
+BlackboxBar.3.position.x: 1920
 BlackboxBar.3.position.y: 0
 BlackboxBar.3.widthPercent: 100
 BlackboxBar.3.useSlit: false
